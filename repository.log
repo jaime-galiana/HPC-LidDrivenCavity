@@ -1,0 +1,420 @@
+commit efd83835094bbfcc831f8abc4f32df7deee25921
+Author: jg2219 <galiana00@gmail.com>
+Date:   Fri Mar 22 22:21:50 2024 +0000
+
+    final commit
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavity.h
+M	LidDrivenCavitySolver.cpp
+M	SolverCG.h
+
+commit 927097ee6f1185af7f183262719c6eeedc052692
+Author: jg2219 <galiana00@gmail.com>
+Date:   Fri Mar 22 22:12:09 2024 +0000
+
+    pre-final commit
+
+M	unittests.cpp
+
+commit cb708164e31e4ae3cf98027dd31911b4657962a8
+Author: jg2219 <galiana00@gmail.com>
+Date:   Fri Mar 22 21:57:26 2024 +0000
+
+    Changes to print to terminal
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavity.h
+M	LidDrivenCavitySolver.cpp
+
+commit d6613dd676f3196651b9ca385b60e99d80c072e4
+Author: jg2219 <galiana00@gmail.com>
+Date:   Fri Mar 22 21:47:55 2024 +0000
+
+    Working without memcopy
+
+M	LidDrivenCavity.cpp
+
+commit b76480f0f96c42bde3697911992301bf2941fc7e
+Author: jg2219 <galiana00@gmail.com>
+Date:   Fri Mar 22 21:28:42 2024 +0000
+
+    not converging
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavity.h
+M	LidDrivenCavitySolver.cpp
+M	Makefile
+M	SolverCG.cpp
+M	SolverCG.h
+A	unittests.cpp
+
+commit 227aa656588333bd02d5d157383d51503d56a5c0
+Author: jg2219 <galiana00@gmail.com>
+Date:   Fri Mar 22 18:58:21 2024 +0000
+
+    openMP added
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavity.h
+M	LidDrivenCavitySolver.cpp
+M	Makefile
+M	SolverCG.cpp
+M	SolverCG.h
+
+commit d05c560fe17ebcfff4f623d9cff90a4a5dc02b05
+Author: jg2219 <galiana00@gmail.com>
+Date:   Fri Mar 22 18:14:31 2024 +0000
+
+    optimised code
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavitySolver.cpp
+M	Makefile
+M	SolverCG.cpp
+
+commit 51a82eace8ae0308155ab026544c1d9413f74224
+Author: jg2219 <galiana00@gmail.com>
+Date:   Fri Mar 22 16:09:01 2024 +0000
+
+    final code before profiling
+
+M	LidDrivenCavity.cpp
+M	Makefile
+M	SolverCG.cpp
+
+commit d7328ca84ab6991072a7a12ec22b7530613f7685
+Author: jg2219 <galiana00@gmail.com>
+Date:   Fri Mar 22 02:02:53 2024 +0000
+
+    Functioning reestructured code
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavity.h
+M	LidDrivenCavitySolver.cpp
+M	SolverCG.cpp
+M	SolverCG.h
+
+commit a748d57081fc33304ea3ac86eb66765ba30bad71
+Author: jg2219 <galiana00@gmail.com>
+Date:   Fri Mar 22 01:03:17 2024 +0000
+
+    "Trying to change SolverCG.cpp to use functions
+    from LidDrivenCavity.cpp"
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavity.h
+M	LidDrivenCavity.o
+M	LidDrivenCavitySolver.cpp
+M	LidDrivenCavitySolver.o
+M	Makefile
+M	SolverCG.cpp
+M	SolverCG.h
+M	SolverCG.o
+M	solver
+
+commit 389dc5a5b35e09dcdfce3d41b4e94dcbbb6d20fe
+Author: jg2219 <galiana00@gmail.com>
+Date:   Thu Mar 21 22:05:14 2024 +0000
+
+    Introduced MPI in functions in LidDrivenCavity class
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavity.h
+M	LidDrivenCavitySolver.cpp
+M	SolverCG.cpp
+
+commit a58b6d7dd311a9c4893ac4d718e560266eb8b833
+Author: jg2219 <galiana00@gmail.com>
+Date:   Thu Mar 21 19:53:03 2024 +0000
+
+    Handling errors in inputs
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavitySolver.cpp
+M	SolverCG.cpp
+
+commit 7be9a145d0412688b3f6d4e76ccc735fb8c3a2d3
+Author: jg2219 <galiana00@gmail.com>
+Date:   Thu Mar 21 19:13:16 2024 +0000
+
+    Changed doxygen comments. Proceed to restructure code. Change the mpi initialization and create functions to improve readibilty
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavity.h
+M	LidDrivenCavitySolver.cpp
+M	SolverCG.cpp
+M	SolverCG.h
+
+commit 5df5c2282081950b3ffea08c0d7a22edd7f71b35
+Author: jg2219 <galiana00@gmail.com>
+Date:   Thu Mar 21 03:04:19 2024 +0000
+
+    Fix error message
+
+M	LidDrivenCavitySolver.cpp
+
+commit 0267a0283ebf78b31979ea36516847dc14862614
+Author: jg2219 <galiana00@gmail.com>
+Date:   Thu Mar 21 02:35:34 2024 +0000
+
+    Fixed output messages
+
+M	LidDrivenCavitySolver.cpp
+
+commit b7e439ac36f80ee36cfadef93ff58bc5b6a63e73
+Author: jg2219 <galiana00@gmail.com>
+Date:   Thu Mar 21 02:33:53 2024 +0000
+
+    MPI working for all ranks and fixed some mistakes
+
+M	LidDrivenCavitySolver.cpp
+M	SolverCG.cpp
+M	SolverCG.h
+
+commit e4446f1c52bd227f50cb611453f6b0ba14d67e29
+Author: jg2219 <galiana00@gmail.com>
+Date:   Wed Mar 20 22:42:40 2024 +0000
+
+    MPI working for all ranks and all bugs solved
+
+M	LidDrivenCavity.cpp
+M	SolverCG.cpp
+
+commit 8b9d4220966b62a5dd456e15a53729c999466d93
+Author: jg2219 <galiana00@gmail.com>
+Date:   Wed Mar 20 22:26:48 2024 +0000
+
+    Fix several bugs
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavitySolver.cpp
+M	SolverCG.cpp
+
+commit 4adfcc6d2498d722b91e79a321527e1d4f03c300
+Author: jg2219 <galiana00@gmail.com>
+Date:   Wed Mar 20 17:52:41 2024 +0000
+
+    Fully functioning mpi, still have to fix not evenly distributed ranks
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavity.h
+M	LidDrivenCavitySolver.cpp
+M	SolverCG.cpp
+
+commit 7ae097dffbad92906ef74a31c8d18fa9bffd77de
+Author: jg2219 <galiana00@gmail.com>
+Date:   Wed Mar 20 03:29:11 2024 +0000
+
+    MPI working and code cleaned for evenly distributed cores
+
+M	LidDrivenCavity.cpp
+M	SolverCG.cpp
+
+commit 4cc74bba1cd9a84e73e4d9b7b5373b2c1f9bec8d
+Author: jg2219 <galiana00@gmail.com>
+Date:   Wed Mar 20 03:00:55 2024 +0000
+
+    Changed variables s, v, vnew for send-receive to fewer number of variables
+
+M	LidDrivenCavity.cpp
+
+commit 088b728ca579048e0c703ac59e2fb95c5a51db14
+Author: jg2219 <galiana00@gmail.com>
+Date:   Wed Mar 20 02:52:02 2024 +0000
+
+    Clean code
+
+M	LidDrivenCavity.cpp
+M	SolverCG.cpp
+
+commit 46e7a1ae9ad5719cf7d071ce2abd119b96933059
+Author: jg2219 <galiana00@gmail.com>
+Date:   Wed Mar 20 02:39:24 2024 +0000
+
+    Reduced number of varibales in Send-Receive
+
+M	SolverCG.cpp
+
+commit 93832cea212f3a4b1de6a724f0891736a868cd38
+Author: jg2219 <galiana00@gmail.com>
+Date:   Wed Mar 20 01:58:47 2024 +0000
+
+    Converged in MPI :)))))))))
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavitySolver.cpp
+
+commit 98695375f614205be07f1e6c3b348f35b0121472
+Author: jg2219 <galiana00@gmail.com>
+Date:   Wed Mar 20 01:48:51 2024 +0000
+
+    Changes to solverCG. Was using t with LidDrivenCavity class, where t is private, was giving errors
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavity.h
+M	LidDrivenCavitySolver.cpp
+M	SolverCG.cpp
+M	SolverCG.h
+
+commit a31b68998d8a6761910398f89cf78a133c916160
+Author: jg2219 <galiana00@gmail.com>
+Date:   Tue Mar 19 05:05:31 2024 +0000
+
+    Everything working, but grid not communicating correctly. I suspect that there is an issue with the grid logic and coordinates
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavity.h
+M	LidDrivenCavitySolver.cpp
+M	SolverCG.cpp
+M	SolverCG.h
+
+commit 759ad52be051b854a4e8d3e7f5aa0dd1ea986377
+Author: jg2219 <galiana00@gmail.com>
+Date:   Tue Mar 19 02:48:59 2024 +0000
+
+    Solver with mpi implemented. Working well with 1 node, not converging with 9 processes.
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavitySolver.cpp
+M	SolverCG.cpp
+M	SolverCG.h
+
+commit cfbd6fa527ae68c64429a8cf30c6296d27eceec9
+Author: jg2219 <galiana00@gmail.com>
+Date:   Mon Mar 18 19:16:14 2024 +0000
+
+    Code with mpi working correctly with 1 node. No changes to SolverCG so far. Star making changes to SolverCG
+
+A	LidDrivenCavity.o
+A	LidDrivenCavitySolver.o
+A	SolverCG.o
+M	ic.txt
+M	solver
+A	test.cpp
+
+commit 19482375758baaebbe21891be956cee6ce22ebd5
+Author: jg2219 <galiana00@gmail.com>
+Date:   Mon Mar 18 18:07:22 2024 +0000
+
+    All mpi working fine. Start changing solveCG
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavitySolver.cpp
+M	SolverCG.cpp
+M	SolverCG.h
+
+commit af53cf6c763adac02918ee79295ee2189e05f09c
+Author: jg2219 <galiana00@gmail.com>
+Date:   Mon Mar 18 12:16:07 2024 +0000
+
+    Updated getColumn, getRow, updateColumn an updateRow functions. Introduced blocking MPI
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavity.h
+M	LidDrivenCavitySolver.cpp
+
+commit c77d6a5637cf0b7b5235962d5172d712f44175cb
+Author: jg2219 <galiana00@gmail.com>
+Date:   Sun Mar 17 15:02:06 2024 +0000
+
+    Fix duplicity in communications
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavity.h
+M	LidDrivenCavitySolver.cpp
+
+commit 463067295ad2971b15bf82b318214a83d4cd6731
+Author: jg2219 <galiana00@gmail.com>
+Date:   Sun Mar 17 14:02:06 2024 +0000
+
+    Create functions to append row and column
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavitySolver.cpp
+
+commit 7effe3c82060bafd9a21f7a218cffdad58d83bd3
+Author: jg2219 <galiana00@gmail.com>
+Date:   Sun Mar 17 13:35:43 2024 +0000
+
+    Set communication between the grid cells
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavity.h
+M	LidDrivenCavitySolver.cpp
+
+commit ff84adcd229cace81707c09ab8dda0733eef6137
+Author: jg2219 <galiana00@gmail.com>
+Date:   Sat Mar 16 18:50:13 2024 +0000
+
+    change Advance() function to only calculate the BC needed, also change Integrate() to accept a pointer to a bool which stores the information about the BC needed, which is then passed to Advance()
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavity.h
+M	LidDrivenCavitySolver.cpp
+
+commit 5a2f22737a2fe760db2d155e2552dc264d07d32d
+Author: jg2219 <galiana00@gmail.com>
+Date:   Sat Mar 16 18:20:29 2024 +0000
+
+    MPI initialized and matrices on each rank
+
+M	LidDrivenCavitySolver.cpp
+
+commit 79ea2edb79bde4f0a3ccfaa9854fdcccea17b31c
+Author: jg2219 <galiana00@gmail.com>
+Date:   Fri Mar 15 19:17:43 2024 +0000
+
+    Mpi changes
+
+M	LidDrivenCavitySolver.cpp
+M	Makefile
+
+commit 7fe86e270d825f846c125d2566354b9c55f83614
+Author: jg2219 <galiana00@gmail.com>
+Date:   Thu Mar 14 23:42:44 2024 +0000
+
+    Chunk the matrix
+
+M	LidDrivenCavitySolver.cpp
+
+commit b9a69df85551e8baa9b3d98414a27db24be2d3ae
+Author: jg2219 <galiana00@gmail.com>
+Date:   Thu Mar 14 22:59:04 2024 +0000
+
+    Start mpi
+
+A	.vscode/settings.json
+M	LidDrivenCavity.cpp
+M	LidDrivenCavity.h
+M	LidDrivenCavitySolver.cpp
+
+commit 9d0f64b20a4fc5e399886affcecabe175d9f2880
+Author: Jaime Galiana Herrera <jg2219@spitfire.ae.ic.ac.uk>
+Date:   Thu Mar 14 18:28:46 2024 +0000
+
+    Fix bug on the code
+
+M	LidDrivenCavity.cpp
+M	LidDrivenCavity.h
+M	LidDrivenCavitySolver.cpp
+M	SolverCG.cpp
+M	SolverCG.h
+A	assignment.pdf
+A	final.txt
+A	ic.txt
+A	repository.log
+A	solver
+
+commit e8802a364d1486f58d14cbbf386a3d8c79767898
+Author: Jaime Galiana Herrera <jg2219@spitfire.ae.ic.ac.uk>
+Date:   Thu Mar 14 13:48:21 2024 +0000
+
+    Added doxygen comments
+
+A	LidDrivenCavity.cpp
+A	LidDrivenCavity.h
+A	LidDrivenCavitySolver.cpp
+A	Makefile
+A	SolverCG.cpp
+A	SolverCG.h
